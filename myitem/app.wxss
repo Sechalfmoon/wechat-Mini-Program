@@ -1,0 +1,38 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.header{
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: limegreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+   color: #F8F8FF;
+  font-size: 20px;
+}
+.bc_2048{
+    
+    background-color:		#EEE8AA;
+}
+.bc_red{
+    background-color: 		#98FB98;
+}
+.bc_blue{
+    background-color: #10AEFF;
+}
+.bc_20{
+  background: 	#ADD8E6
+}

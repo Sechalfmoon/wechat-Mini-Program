@@ -1,0 +1,163 @@
+.selection{
+  
+  border-bottom: 5px solid #ddd;
+  background-color:	#C0C0C0;
+}
+.slide-image{
+  width: 100%;
+}
+.run{
+ height: 100rpx;
+  width: 100%;
+  background: 	#2F4F4F;
+
+}
+.content{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   
+}
+.flex-wrp{
+  height: 200rpx;
+  width: 100%;
+  display:flex;
+  margin-top: 3rpx;
+  margin-bottom: 3rpx;
+}
+.flex-wrp_1{
+  height: 250pt;
+  display:flex;
+  
+  margin-bottom: 5rpx;
+}
+.flex-item{
+  width:185pt;
+  height: 110px;
+color: 		#F0F8FF;
+  display: flex;
+  margin-left: 10rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+ background-color:  #00FF00;
+  margin-top: 10rpx;
+  height: 100rpx;
+  width: 100rpx;
+
+}
+.content-item1{
+  font-family : Serif;
+  font-size: 60rpx;
+  text-align: center;
+  color: #FFFFFF;
+
+  height: 90pt;
+  width:455rpx;
+  margin: 10rpx; 
+  position: relative;
+ 
+}
+.content-item4{
+  font-family : Serif;
+  font-size: 50rpx;
+  text-align: center;
+  color: #FFFFFF;
+
+  height:60%;
+  width:455rpx;
+  margin: 10rpx; 
+  position: relative;
+ 
+}
+.content-item2{
+
+   margin-top: 5rpx;
+  height: 80rpx;
+  width: 100%;
+  background-color:#90EE90;
+  position: relative;
+}
+.content-item3{
+  font-family : fantasy;
+  font-size: 60rpx;
+  color: 	#F0F8FF;
+  background-color: 	#BDB76B;
+  height: 98%;
+  width: 35%;
+  margin: 8rpx;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  
+}
+.content-item-text{
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  font-size: 24px;
+  background: -webkit-linear-gradient(bottom,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0));
+  height: 125rpx;
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+movable-view {
+  font-family : fantasy;
+  font-size: 40rpx;
+  color: 	#000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100rpx;
+  width: 100rpx;
+  background: 		#FFFFF0;
+}
+
+movable-area {
+  height: 90pt;
+  width: 455rpx;
+  background-color: #C0C0C0;
+  overflow: hidden;
+}
+.scroll-view_H{
+  white-space: nowrap;
+}
+.scroll-view-item{
+
+  color: 	#F0F8FF;
+  height: 80rpx;
+ 
+}
+.scroll-view-item_H{
+  display: inline-block;
+  width: 100%;
+  height: 80rpx;
+}
+.button_2{
+    position: absolute;
+    bottom: 0px;
+    font-family : fantasy;
+  font-size: 45rpx;
+  color: 	#000;
+   height: 100rpx;
+   width: 100%;
+   background:  #C0C0C0
+}
+.nomre_1{
+  font-family: sans-serif;
+ 
+  position: absolute;
+  top: 40%;
+}
+.image_1{
+ height:100%;
+  width: 100%;
+
+}

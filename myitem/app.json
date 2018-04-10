@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/2048/2048",
+    "pages/map/map",
+    "pages/er/er"    
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "海川的家庭作业",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "grey",
+    "selectedColor": "green",
+     "borderStyle": "white",
+     "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "游戏"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+
+    }]
+  }
+}
